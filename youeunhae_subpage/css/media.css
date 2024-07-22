@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+@media (max-width: 1600px) {
+    /* 전체 컨테이너 */
+    .container {
+        padding: 0 5%;
+        box-sizing: border-box;
+    }
+
+    .tab_txt>ul>li>div {
+        font-size: 0.9rem;
+    }
+}
+
+/* 1340px */
+@media (max-width: 1340px) {
+    #allbg {height: 3499px;}
+
+    .container {padding: 0;}
+
+    /* banner */
+    .banImg {top: 10%;}
+    .banImg figcaption {left: -48%;}
+    .banImg figcaption span {font-size: 6rem;}
+
+    /* cont2 */
+    .tab_btn>ul>li {width: 6vw; height: 6vw;}
+    .tab_box {height: 90vh;}
+}
+
+/* 1280px */
+@media (max-width: 1280px) {
+    .gamecinsole>li {width: 100%;height: calc(70vh - 100px);}
+    .skill_tit {margin-top: 5%;}
+    .tab_box {align-items: normal;}
+    .con1_title {line-height: 100px;}
+    .skill {width: 40%;}
+    .gamecinsole>li {
+        width: 100%;
+        height: calc(60vh - 100px);
+        margin-top: 100px;
+    }
+    .tab {width: 60%; flex-direction: column;}
+    .tab_img {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 3vw;
+    }
+    .tab_img>ul>li {
+        width: 100%;
+        height: calc((80vh - 100px)/2);
+        border-radius: 70px;
+        box-shadow: none;
+        box-sizing: border-box;
+    }
+    .tab_menu {width: 100%; height: calc((80vh - 100px)/2 - 3vw);}
+    .tab_btn {margin-bottom: 2vw;}
+    .tab_btn>ul {padding: 0 20%;}
+    .tab_btn>ul>li {
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #333;
+        border: 1px solid #060D11;
+    }
+    .tab_txt>ul>li>div.t_box1 {
+        width: 100%;
+        margin-bottom: 0;
+        height: calc((80vh - 100px)/2 - 11.5vw);
+    }
+    .tab_txt>ul>li>div.t_box2 {display: none;}
+    .tab_txt>ul>li>div {font-size: 1rem;}
+    .tab_btn>ul>li {width: 6.5vw; height: 6.5vw;}
+    .tab_img>ul>li:nth-of-type(2)>img {object-position: center 45%;}
+    .gamecinsole>li .skill_tit {margin-top: 5%;}
+    .tab_txt>ul>li>div {padding: 60px;}
+    .map_img>ul>li .map_desc span {font-size: 1.2rem;}
+    .map_img>ul>li .map_desc p {font-size: 1rem;}
+}
+
+@media (max-width: 1110px) {
+    .banImg figcaption span {font-size: 4.7rem;}
+    .banImg figcaption p {font-size: 1.2rem;}
+}
+
+@media (max-width: 1030px) {
+    #allbg {height: 3340px;}
+    .footer {height: 240px; line-height: 30px;}
+    .footer .f_logo {order: 1;}
+    .footer .f_menu {order: 3;}
+    .footer .f_link {order: 4;}
+    .footer .f_sns {
+        width: 50%;
+        order: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .footer .f_sns ul li {border: 1px solid #607683;border-radius: 5px;}
+    .footer .f_copy {width: 50%;order: 5;}
+    .banImg {width: 75vw; top: 3%;}
+    .banImg figcaption {left: -20%; top: 85%;}
+    .banImg figcaption span {font-size: 5rem;}
+    .banImg figcaption p {font-size: 1.3rem;}
+    #contents1 {margin-bottom: 80px;}
+}
+
+@media (max-width: 960px) {
+    #allbg {height: 3250px;}
+    #contents1 {margin-bottom: 0px;}
+    .gamecinsole>li .skill_tit {margin-top: 5%;}
+    .banImg figcaption {top: 90%;}
+    .map_img>ul>li .map_desc {width: 62vw;height: 14vw;}
+    .map_img {width: 80%;}
+}
+
+@media (max-width: 700px) {
+    .tab_txt {display: none;}
+    .tab {padding-top: 150px;}
+    .map_img>ul>li .map_desc p {font-size: 0.75rem;}
+    .map_img>ul>li .map_desc span {font-size: 1rem;}
+}
+
+@media (max-width: 600px) {
+    #allbg {height: 2820px;}
+    .footer {height: 200px;}
+    .footer .f_logo {width: 90px;}
+    .footer .f_menu ul li {margin-right: 12px;}
+    .footer .f_menu ul li:nth-of-type(5) {display: none;}
+    .footer .f_menu ul li a {font-size: 0.8125rem;}
+    .footer .f_sns ul li {width: 1.8rem;height: 1.8rem;margin-right: 0.8rem;}
+    .footer .f_sns ul li a img {width: 1rem;}
+    .footer .f_copy {width: 60%;}
+    .footer .f_copy span {font-size: 0.625rem;}
+    select {
+        width: 6rem;
+        font-size: 0.7rem;
+        height: 24px;
+    }
+    .footer .f_link {width: 100%;}
+    .footer .f_copy {width: 100%;}
+    .banImg {width: 90vw;top: 3%;}
+    .banImg figcaption {left: 5%;top: 100%;}
+    .banImg figcaption span {font-size: 7rem;}
+    .banImg figcaption p {font-size: 1.3rem;}
+    #allbg {height: 3120px;}
+    #contents1 {height: 1000px;}
+    .tab {width: 100%;}
+    .skill {width: 100%;}
+    .gamecinsole>li {width: 100%;height: calc(48vh - 100px);}
+    .gamecinsole>li .skill_tit {margin-top: 0%;}
+    .skill_box li {padding: 0.7em 0;}
+    .skill_box li a span {width: 55vw;}
+    .skill {padding-bottom: 40px;}
+    .tab_btn {margin-bottom: 5vw;}
+    .tab_btn>ul {padding: 0 10%;}
+    .tab_btn>ul>li {width: 20vw;height: 10vw;}
+    .tab_img {padding-bottom: 5vw;}
+    .tab_txt>ul>li>div.t_box1 {
+        width: 100%;
+        margin-bottom: 0;
+        height: calc((60vh - 100px) / 2 - 11.5vw);
+    }
+    .tab_txt>ul>li>div {padding: 40px;}
+    .skill_box li:nth-of-type(1) {display: none;}
+    .skill_box li:nth-of-type(2) {display: none;}
+    .skill>ul>li:hover .skill_box.box1 li:nth-of-type(3) a span::after {width: 43vw;}
+    .skill>ul>li:hover .skill_box.box1 li:nth-of-type(4) a span::after {width: 40vw;}
+    .skill>ul>li:hover .skill_box.box1 li:nth-of-type(5) a span::after {width: 8vw;}
+    .skill>ul>li:hover .skill_box.box2 li:nth-of-type(3) a span::after {width: 55vw;}
+    .skill>ul>li:hover .skill_box.box2 li:nth-of-type(4) a span::after {width: 48vw;}
+    .skill>ul>li:hover .skill_box.box2 li:nth-of-type(5) a span::after {width: 35vw;}
+    .skill>ul>li:hover .skill_box.box3 li:nth-of-type(3) a span::after {width: 42vw;}
+    .skill>ul>li:hover .skill_box.box3 li:nth-of-type(4) a span::after {width: 25vw;}
+    .skill>ul>li:hover .skill_box.box3 li:nth-of-type(5) a span::after {width: 8vw;}
+    #contents2 {
+        height: 600px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .game_map {flex-wrap: wrap;height: auto;}
+    .map_tab {width: 100%;}
+    .map_tab>ul {flex-direction: row; height: 7vw;}
+    .map_img {order: -1;
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+    #contents2 {height: 1000px;}
+    .tab {padding-top: 0;}
+    .map_tab>ul>li {height: 12vw;width: 23%;}
+    .map_img>ul>li {height: 47vw;}
+    .map_img>ul>li .map_desc {width: 80vw;height: 17vw;}
+    .map_img>ul>li .map_desc span {font-size: 1rem;}
+    .map_img>ul>li .map_desc p {font-size: 0.8rem;}
+    .banner {height: 870px;}
+    #banner {margin-bottom: 0px;}
+}
+
+@media (max-width: 530px) {
+    .banImg figcaption span {font-size: 6rem;}
+    .banImg figcaption p {font-size: 1.15rem;}
+}
+
+@media (max-width: 480px){
+    #allbg {height: 2220px;}
+    .footer .f_menu ul li a {font-size: 0.7125rem;}
+    .banner {height: 80vh;}
+    .banImg figcaption {left: 0%;top: 100%;}
+    .banImg figcaption span {font-size: 5.8rem;}
+    .banImg figcaption p {font-size: 1.1rem;}
+    .map_img>ul>li .map_desc span {font-size: 0.9rem;}
+    .map_img>ul>li .map_desc p {font-size: 0.7rem;}
+    .con1_title {font-size: 2.2rem;line-height: 80px;}
+    .skill {display: none;}
+    .tab_txt {display: none;}
+    .map_img>ul>li .map_desc {display: none;}
+    .banner {height: 1050px;}
+    #contents2 {height: 670px;}
+    #contents1 {height: 250px;}
+}
+
+@media (max-width: 415px) {
+    .banImg figcaption span {font-size: 5rem;}
+}
+
+@media (max-width: 355px) {
+    .banImg figcaption span {font-size: 4.4rem;}
+}
+
+@media (max-width: 320px) {
+    #allbg {height: 1780px;}
+    .footer .f_menu ul li a {font-size: 0.7rem;}
+    .banner {height: 50vh;}
+    .banImg figcaption {left: 0%;top: 100%;}
+    .banImg figcaption span {font-size: 4rem;}
+    .banImg figcaption p {font-size: 0.9rem;}
+    .con1_title {font-size: 1.2rem;}
+    .tab_txt {display: none;}
+    #contents1 {height: 100vh;}
+    .tab_menu {height: calc((100vh - 100px) / 2 - 3vw);}
+    .map_img>h3 {font-size: 1.2rem;}
+    #contents2 {height: 70vh;}
+    .map_img>ul>li .map_desc {display: none;}
+    .banner {height: 900px;}
+    #contents1 {height: 180px;}
+    #contents2 {height: 450px;}
+}
